@@ -1,5 +1,4 @@
-!pip install joblib
-
+joblib==1.1.0
 GitPython==3.1.27
 keras==2.10.0
 Keras-Applications==1.0.8
