@@ -19,3 +19,6 @@ Throughout this process we were tasked with identifying if an image originated a
 I chose to go with a model that performs best in accuracy and coupled with its high precision I believe this model to be reliable. 
 
 For our next steps we would like to begin creating a model for the other more advanced types of deepfakes. Although not comprehensive this model will be able to verify some deepfakes and should be implemented immediately but until all models are created it would be unwise to claim that a video has not been created by some deepfake technology simply because it passes this test.
+
+##Link
+[Deepfake Detector](https://jordanmang-deepfakeclassifier-app-qaqsja.streamlitapp.com/)
