@@ -1,5 +1,6 @@
+pip install joblib
+
 GitPython==3.1.27
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
 keras==2.10.0
 Keras-Applications==1.0.8
 keras-nightly==2.5.0.dev2021032900
