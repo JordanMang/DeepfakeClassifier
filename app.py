@@ -1,3 +1,4 @@
+pip install cv2
 from unittest import result
 import streamlit as st 
 import cv2
@@ -14,7 +15,7 @@ import torch
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt2.xml')
 
 def main():
-    st.subheader("Face Detection")
+    st.subheader("Deepfake Detection")
 
     image_file = st.file_uploader("Upload Image",type=['jpg','png','jpeg'])
 
