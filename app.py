@@ -25,7 +25,7 @@ def main():
         result_img,result_resized = detect_faces(our_image)
         st.image(result_resized)
 
-        model_file = open("code_/deepfake10GOOG.pkl", "rb")
+        model_file = open("deepfake10GOOG.pkl", "rb")
         loaded_model = joblib.load(model_file)
         model_file.close()
         yhat = loaded_model.predict(np.expand_dims(result_resized/255, 0))
