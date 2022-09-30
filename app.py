@@ -1,4 +1,3 @@
-!pip install cv2
 from unittest import result
 import streamlit as st 
 import cv2
